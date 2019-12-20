@@ -45,11 +45,8 @@ sub stdopen {
 	$ret .= "</HEAD>\n";
 
 	$ret .= "
-<!--
-<BODY BGCOLOR=\"#6b7eb2\" TEXT=\"#000000\" BACKGROUND=\"images/back.jpg\"
-      LINK=\"#0043ff\" VLINK=\"#0043ff\" ALINK=\"#6b7eb2\">
--->
-<BODY BGCOLOR=\"#6b7eb2\" TEXT=\"#000000\"
+
+<BODY BGCOLOR=\"#ffffff\" TEXT=\"#000000\"
       LINK=\"#0043ff\" VLINK=\"#0043ff\" ALINK=\"#6b7eb2\">
 
 <!-- EXTRA table around left/right tables -->
@@ -125,18 +122,9 @@ sub stdclose {
 <!-- End of document table -->
 
 <P></P>
-<SCRIPT LANGUAGE=\"JavaScript\">
-<!--
-url='http://host.e-advies.nl/track/blackpixel.gif?ref=' + escape(document.referrer);
-document.write('<IMG SRC=\"' + url +  '\" WIDTH=1 HEIGHT=1 ALT=\"s\">');
-// -->
-</SCRIPT>
-<NOSCRIPT>
-<IMG SRC=\"http://host.e-advies.nl/track/blackpixel.gif\" WIDTH=1 HEIGHT=1 ALT=\"n\">
-</NOSCRIPT>
 
-<P ALIGN=CENTER><FONT COLOR=\"#6b7eb2\" SIZE=\"-2\">Generated on $date by <A HREF=\"tools/decorate.pl\">decorate.pl</A> / <A HREF=\"tools/menuize.pl\">menuize.pl</A></FONT>
 
+<P ALIGN=RIGHT><FONT COLOR=\"#6b7eb2\" SIZE=\"-2\">Updated on $date</FONT>
 </TD></TR></TABLE>
 
 <!-- End of table on right -->
