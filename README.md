@@ -10,3 +10,13 @@ in /doc for use in github pages as a static website.
 
 Images placed in /gallery will be included in an image gallery page. Any
 images required for other pages that should /not/ be in gallery
+
+Roadmap:
+- [x] Get a menu-generating script working
+- [x] favicon
+- [x] custom dns
+- [ ] ssl
+- [x] Basic layout/skeleton
+- [ ] Gallery page generating
+- [ ] About page content
+- [ ] other content
