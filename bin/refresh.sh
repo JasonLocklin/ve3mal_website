@@ -14,8 +14,6 @@ echo Processing main directory
 rm docs/*.html
 
 bin/decorate.pl src/* tmp
-bin/menuize.pl tmp/index.html \
-	tmp/page2.html \
-	docs
+bin/menuize.pl tmp/*.html docs
 
 rm tmp/*.html
