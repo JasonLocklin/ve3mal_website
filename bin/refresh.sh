@@ -11,7 +11,11 @@
 #done
 
 echo Processing main directory
+rm docs/*.html
 
 bin/decorate.pl src/* tmp
-bin/menuize.pl tmp/about.html \
-	tmp/page2.html .
+bin/menuize.pl tmp/index.html \
+	tmp/page2.html \
+	docs
+
+rm tmp/*.html
