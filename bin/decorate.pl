@@ -38,9 +38,9 @@ sub stdopen {
 
 	$ret .= "<HEAD>\n";
 	$ret .= "<TITLE>$$pairs{'title'}</TITLE>\n" if $$pairs{'title'};
-	$ret .= "<META NAME=DESCRIPTION CONTENTS=\"$$pairs{'description'}\">\n"
+	$ret .= "<META NAME=DESCRIPTION CONTENT=\"$$pairs{'description'}\">\n"
 		if $$pairs{'description'};
-	$ret .= "<META NAME=KEYWORDS CONTENTS=\"$$pairs{'keywords'}\">\n"
+	$ret .= "<META NAME=KEYWORDS CONTENT=\"$$pairs{'keywords'}\">\n"
 		if $$pairs{'keywords'};
 	$ret .= "</HEAD>\n";
 
