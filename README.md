@@ -18,5 +18,6 @@ Roadmap:
 - [ ] ssl
 - [x] Basic layout/skeleton
 - [ ] Gallery page generating
+- [ ] Don't update page date unless content changed
 - [ ] About page content
 - [ ] other content
