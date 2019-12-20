@@ -1,4 +1,4 @@
-# ve3mal_website
+# VE3MAL Ham Radio Website
 Static html website for amateur radio stuff
 
 Bare static web pages are in /src. They begin with a number and underscore.
