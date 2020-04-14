@@ -19,5 +19,6 @@ Roadmap:
 - [x] Basic layout/skeleton
 - [ ] Gallery page generating
 - [ ] Don't update page date unless content changed
+- [ ] Embed some stuff, like qrz logbook or discus.
 - [ ] About page content
 - [ ] other content

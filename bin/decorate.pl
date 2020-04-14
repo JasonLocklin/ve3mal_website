@@ -61,6 +61,7 @@ sub stdopen {
 
 <!-- INSERT_MENU -->
 
+<P ALIGN=RIGHT><FONT COLOR=\"#6b7eb2\" SIZE=\"-2\">Updated on $date</FONT>
 </TD></TR>
 </TABLE>
 
@@ -124,7 +125,7 @@ sub stdclose {
 <P></P>
 
 
-<P ALIGN=RIGHT><FONT COLOR=\"#6b7eb2\" SIZE=\"-2\">Updated on $date</FONT>
+
 </TD></TR></TABLE>
 
 <!-- End of table on right -->
