@@ -61,7 +61,7 @@ sub stdopen {
 
 <!-- INSERT_MENU -->
 
-<P ALIGN=RIGHT><FONT COLOR=\"#6b7eb2\" SIZE=\"-2\">Updated on $date</FONT>
+<P ALIGN=RIGHT><FONT COLOR=\"#6b7eb2\" SIZE=\"-2\">Updated on </br>$date</FONT>
 </TD></TR>
 </TABLE>
 
