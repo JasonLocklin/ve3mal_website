@@ -31,6 +31,7 @@
 $BORDER=0;
 
 sub stdopen {
+  my $date = localtime;
 	(my $pairs) = @_;
 
 	my $ret = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">
@@ -56,12 +57,13 @@ sub stdopen {
 
 <!-- Table on left for menu table -->
 
+
 <TABLE BORDER=$BORDER CELLPADDING=4 CELLSPACING=6>
 <TR BGCOLOR=\"#ffffff\" ALIGN=CENTER><TD>
 
 <!-- INSERT_MENU -->
 
-<P ALIGN=RIGHT><FONT COLOR=\"#6b7eb2\" SIZE=\"-2\">Updated on </br>$date</FONT>
+<P ALIGN=RIGHT><FONT COLOR=\"#6b7eb2\" SIZE=\"-2\">Updated on</br> $date </FONT>
 </TD></TR>
 </TABLE>
 
