@@ -18,17 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: VE3MAL Ham Radio 
-email: ve3mal@rac.ca 
+title: VE3MAL Station Notebook
+email: ve3mal@rac.ca
 description: >- # this means to ignore newlines until "baseurl:"
-Ham Radio project notebook and log for VE3MAL, Jay, an Amateur Radio operator
-in southern Ontario. QRP, kit building, antenna design, HF digimodes and CW, VHF FM
-and APRS. Digital Voice, Hotspots, POTA, and more. Member of Kitchener Amateur Radio 
-Club (KWARC) and Radio Amateurs of Canada (RAC). 
+  Ham Radio project notebook and log for VE3MAL (Jay), an Amateur Radio operator
+  in southern Ontario. Member of Kitchener Amateur Radio
+  Club (KWARC) and Radio Amateurs of Canada (RAC). Find on Mastodon
+  @ve3mal@mastodon.radio, and on the \#Amateurradio on the Geekshed IRC
+  Network.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ve3mal.locklin.science" # the base hostname & protocol for your site, e.g. http://example.com
   #twitter_username: jekyllrb
-github_username: JasonLocklin 
+github_username: JasonLocklin
 
 # Build settings
 theme: minima
