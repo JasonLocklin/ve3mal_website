@@ -55,9 +55,14 @@ pagination:
 autopages:
   enabled: true
   categories:
+    layouts: 
+      - 'autopage_category.html'
     title: 'Posts in category :cat'
     permalink: '/category/:cat'
     silent: false
+    slugify:
+      mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
+      case: false       # Whether to replace all uppercase letters with their lowercase counterparts
 
 # Exclusions
 exclude: [ 'README.md', 'COPYING' ]
