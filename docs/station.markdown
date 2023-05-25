@@ -30,16 +30,16 @@ I would like to add a FM mobile radio
 to the mix, as well as trying out a [SHARI](https://kitsforhams.com/) allstar hotspot node.
 
 ## First Shack 
-Initially, I started with a Yaesu FT450d.
+Initially, The first shack was based around a Yaesu FT450d.
 ![First Shack](assets/images/old_station.jpg)
-I've used an FT40, a Baofeng uv85, and
-Motorola HTs as well. The FT450d was a great entry radio. 
+Additionally I've used a Yaesu FT60r, Kenwood TM-281a, a Baofeng uv85, and
+Motorola HTs as well. The FT450d was a great entry HF radio. 
 Simple to operate, and 
 buttons and knobs for most functions, while still being quite portable. 
-The 3 radios provided HF through UHF, Sideband, CW, digital modes, FM, and digital
+The 3 radios pictured provided HF through UHF, Sideband, CW, digital modes, FM, and digital
 voice on UHF! Homemade single lever paddle and MFJ straight key were very cheap, as 
 was an old ACER netbook for digital modes. Manual tuner was used occasionally to extend
 operating bands with homemade wire antennas.  Not pictured: a Kenwood TM-281a for 2m FM, and
-Yaesu FT60 HT. The FT60 was a great, simple handheld that feels indestructible. I highly
+Yaesu FT60 HT. The FT60r was a great, simple handheld that feels indestructible. I highly
 recommend it. The TM-281a was a good performer, but I did not like that it's minimum
 power output was 25w. I prefer a low power option being available. 
