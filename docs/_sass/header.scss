@@ -1,0 +1,30 @@
+.header {
+  padding-top: 35px
+}
+
+.blink {
+		animation: blinker 1.5s infinite;
+}
+@keyframes blinker {
+		50% {
+				opacity: 0;
+		}
+}
+
+
+.favicon {
+  height: 1em; /* Adjust the height value as needed */
+  vertical-align: middle; /* Vertically align the image with the text */
+  display: inline-block;
+  margin-right: 0.5em;
+  filter: invert(100%);
+}
+
+.header nav {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.header nav a {
+  padding-right: 3px;
+}

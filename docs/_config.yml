@@ -30,11 +30,45 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ve3mal.locklin.science" # the base hostname & protocol for your site, e.g. http://example.com
   #twitter_username: jekyllrb
 github_username: JasonLocklin
+author: VE3MAL
+timezone: America/Toronto
+timezone_short: ET
 
-# Build settings
-theme: minima
+
+# Keywords
+keywords: ['Ham Radio', 'QRP', 'POTA', 'HF']
+
+# Styling
+sass:
+  sass_dir: _sass
+  style: expanded # compact, expanded or compressed
+
+# Paginate
+pagination:
+  enabled: true
+  # Value set low for demonstration purposes
+  per_page: 6
+  sort_field: 'date'
+  sort_reverse: true
+
+# Category Paginating
+autopages:
+  enabled: true
+  categories:
+    title: 'Posts in category :cat'
+    permalink: '/category/:cat'
+    silent: false
+
+# Exclusions
+exclude: [ 'README.md', 'COPYING' ]
+
+# Plugins
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

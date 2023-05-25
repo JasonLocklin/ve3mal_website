@@ -1,0 +1,8 @@
+- name: Posts
+  link: /posts
+- name: Categories
+  link: /categories/
+- name: Station Info 
+  link: /station
+- name: About & Contact
+  link: /
