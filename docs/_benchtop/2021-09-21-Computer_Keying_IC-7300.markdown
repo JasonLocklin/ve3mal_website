@@ -2,7 +2,7 @@
 layout: post
 title:  "Computer Keying CW on the IC-7300"
 date:   2021-09-22 12:50:58 -0400
-categories: IC-7300 cw
+categories: IC-7300
 ---
 ## Computer Keying CW on the IC-7300 with a Raspberry Pi
 

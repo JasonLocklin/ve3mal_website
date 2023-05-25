@@ -2,21 +2,41 @@
 layout: default
 title: Home
 pagination:
-    enabled: true
+    enabled: false 
 ---
+<h3>VE3MAL - Amateur Radio Station Activities and Activation Log Page</h3>
 
-<h2>Posts</h2>
-{% for post in paginator.posts %}
+<div class="stats">
+
+<div class="image-container">
+  <img src="https://hamalert.org/myspot?c=VE3MAL&amp;h=8f0a57d2780c10c2" />
+</div>
+<div class="post-content">
+  <p>Ham Radio activities and activation log page for VE3MAL. This includes
+activities like Field Day, or POTA activations, but also includes my notes
+about operating in general. Ham radio encompasses a wide range of activities, 
+and it could take a lifetime to try everything. I'll record experiences here
+as I try new things, and hopefully it will be useful to others.
+  </p>
+</div>
+
+
+</div>
+
+
+
+<h4>Posts</h4>
+{% for post in site.onair %}
 <span class="post-item"><span class="mobile-hide"> {{ post.date | date: '%Y-%m-%d' }} >> </span><a href="{{ post.url }}">{{ post.title }}</a><span class="float-right mobile-hide">{{ post.categories }}</span></span>
 {% endfor %}
 
 <div class="post-nav">
-{% if paginator.total_pages > 1 %}
-{% if paginator.next_page %}
-<a href="{{ paginator.next_page_path | prepend: site.baseurl }}">&lt;- Older</a>
+{% if site.collections.onair.paginator.total_pages > 1 %}
+{% if site.collections.onair.paginator.next_page %}
+<a href="{{ site.collections.onair.paginator.next_page_path | prepend: site.baseurl }}">&lt;- Older</a>
 {% endif %}
-{% if paginator.previous_page %}
-<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer -&gt;</a>
+{% if site.collections.onair.paginator.previous_page %}
+<a href="{{ site.collections.onair.paginator.previous_page_path | prepend: site.baseurl }}">Newer -&gt;</a>
 {% endif %}
 {% endif %}
 </div>

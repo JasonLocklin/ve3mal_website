@@ -2,6 +2,7 @@
 layout: post
 author: Jay 
 title: Add an Amplified Receive Antenna 
+categories: IC-7300
 ---
 
 ## Add an Amplified Receive Antenna to the Icom IC-7300

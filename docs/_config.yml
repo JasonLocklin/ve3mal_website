@@ -44,25 +44,32 @@ sass:
   style: expanded # compact, expanded or compressed
 
 # Paginate
-pagination:
-  enabled: true
+#pagination:
+#  enabled: true
   # Value set low for demonstration purposes
-  per_page: 6
-  sort_field: 'date'
-  sort_reverse: true
+  #  per_page: 6
+  #sort_field: 'date'
+  #sort_reverse: true
+
+
+# Paginate
+paginate: 6  # Specify the number of posts per page
+  #permalink: '/posts/page/:num/'  # Set the permalink structure for paginated pages
+paginate_path: '/posts/page/:num/'  # Set the path for paginated pages
+paginate_sort_reverse: true  # Sort posts in reverse order (latest first)
 
 # Category Paginating
 autopages:
   enabled: true
   categories:
-    layouts: 
-      - 'autopage_category.html'
-    title: 'Posts in category :cat'
-    permalink: '/category/:cat'
-    silent: false
-    slugify:
-      mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
-      case: false       # Whether to replace all uppercase letters with their lowercase counterparts
+    - slug: layouts
+      layout: autopage_category
+      title: 'Posts in category :cat'
+      permalink: '/category/:slug/:num'
+      limit: 5
+      sort_field: 'date'
+      sort_reverse: true
+
 
 # Exclusions
 exclude: [ 'README.md', 'COPYING' ]
@@ -70,10 +77,16 @@ exclude: [ 'README.md', 'COPYING' ]
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-seo-tag
 
-
+collections:
+  onair:
+    output: true 
+    permalink: '/onair/:title'
+  benchtop:
+    output: true 
+    permalink: '/benchtop/:title'
 
 # Exclude from processing.
 # The following items will not be processed, by default.

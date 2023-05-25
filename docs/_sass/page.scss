@@ -92,3 +92,24 @@ h2,
 strong {
   font-weight: 500;
 }
+
+/* Hamalert image */
+.image-container {
+  width: 400px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  overflow: hidden; /* Hide the content that exceeds the container dimensions */
+  position: relative; /* Establsh positioning context for absolute positioning */
+  background-color: #282f3a;
+  float: right;
+  margin-left: 300em;
+  clear: right; /* Added clear: left */
+}
+
+.image-container img {
+  position: absolute; /* Position the image absolutely */
+  clip: rect(40px, 400px, 100px, 45px); /* Define the cropping area */
+  mix-blend-mode: screen;
+  filter: invert(1) brightness(2); /* Invert the colors */
+  max-width: none; /* Prevent the image from scaling beyond its original size */
+}
+

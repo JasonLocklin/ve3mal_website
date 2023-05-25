@@ -1,6 +1,6 @@
-- name: Posts
+- name: ONAIR 
   link: /posts
-- name: Categories
+- name: Benchtop 
   link: /categories/
 - name: Station Info 
   link: /station
