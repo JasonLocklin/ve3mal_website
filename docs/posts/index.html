@@ -26,7 +26,7 @@ as I try new things, and hopefully it will be useful to others.
 
 
 <h4>Posts</h4>
-{% for post in site.onair %}
+{% for post in site.onair reversed %}
 <span class="post-item"><span class="mobile-hide"> {{ post.date | date: '%Y-%m-%d' }} >> </span><a href="{{ post.url }}">{{ post.title }}</a><span class="float-right mobile-hide">{{ post.categories }}</span></span>
 {% endfor %}
 

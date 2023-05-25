@@ -3,7 +3,7 @@ layout: post
 title: "Learning CW (Continous Wave - Morse Code)"
 description: "Notes, Links, and Personal Observations about Learning CW"
 date:   2023-05-24 12:50:58 -0400
-categories: cw
+categories: CW, Morse, Learning
 ---
 
 
