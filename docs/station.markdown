@@ -3,6 +3,8 @@ layout: page
 title: Station
 permalink: /station/
 ---
+## QTH
+Kitchener, situated in the Waterloo Region of Ontario, is my adoptive home town. Initially drawn here for studies at the University of Waterloo, I quickly fell in love with the region's industrial heritage and thriving innovation scene. Resting on the ancestral lands of the Anishinaabe, Haudenosaunee, and Neutral peoples, the area has seen remarkable growth thanks to the universities and a vibrant community. It's a perfect place for inquisitive minds.
 
 
 ## HF Station
