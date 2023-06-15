@@ -24,22 +24,46 @@ To be able to understand *every* part of the machine that talks through the sky,
 
 #### CW Learning {#learning}
 
-My own journey to learning the code was long but rewarding. It could have been quicker had I followed the advice of the sages of the hobby with consistent, daily practice, but as with many, this is a hobby among many daily concerns. I don't find this disappointing though, as I have approached code practice as a hobby in its self. I have spent countless hours learning about the different methods and tools and trying them out. It was a hobby that could involve 10 minutes of break at work to focus intently, or listen to some code while doing other things. Interestingly, I find that a short bust of focused practice actually clears my mind like a form of meditation or relaxation. If someone chooses this haphazard path, they should know that it may be slow, but it still can be rewarding and ultimately successful.
+My own journey to learning the code was long but rewarding. 
+It could have been quicker had I followed the advice of the sages of the hobby with consistent, daily practice, but as with many, this is a hobby among many daily concerns.
+I don't find this disappointing though, as I have approached code practice as a hobby in its self. 
+Interestingly, I find that a short bust of focused practice actually clears my mind like a form of meditation.
+If someone chooses this haphazard path, they should know that it may be slow, but it still can be rewarding and ultimately successful.
 
-As someone still very much learning, I will only provide 3 recommendations to others. As far as I know, these are entirely uncontroversial, and I doubt any respected CW teacher will disagree with any:
+As someone still very much learning, I will provide a short list of some hard-won lessons. As far as I know, these are entirely uncontroversial, and I doubt any respected CW teacher will disagree with any:
 
   - Always practice at the minimal volume necessary for comfortable copy. Protect those ears. The amazing signal-to-noise capability of CW translates to simple audio practice, and even in a noisy environment, you may be surprised that very quiet tones are easy to copy.
   - Any resource that you find that presents you with visual cues (dots and dashes) isn't worth your time. You are learning an auditory language, and visual crutches will hurt your learning process almost immediately.
   - When you find something that seems to work for you, stick to it! It will get frustrating at times, and you might want to experiment with other ways of gaining exposure to the code, but don't give up on your primary learning tool too early.
-  - Okay, I lied, one more; have fun! This is all for enjoyment.
 
-One benefit to this path is having spent a lot of time researching and experimenting with learning tools. Below is a list of resources I can recommend for particular goals:
+...
 
-- [Learn Morse Code Online](http://lcwo.net): LCWO is the go-to for learning CW using the Koch method and Farnsworth timing. The Koch method involves starting with just two letters (at "full speed") and only adding new characters when you have learned to instantly recognize the ones you have. Farnsworth timing makes it easier to progress by increasing the time interval between letters. Slow code has no rhythm and it is too easy to count the dits and dahs -a recipy for stagnation, but increasing the time between characters allows you to keep the sound of the characters but not be overwhelmed by the speed you have to copy them.
-- [CW-Academy](https://cwops.org/cw-academy/): The founders of a new breed of online in-person teaching. I have not done this, but I know a few people who have went through this process and have nothing but positive things to say. Even if you do not sign up, their website has all of the course materials so it is entirely possible to self-teach.
-- Morse Machine. [Android](https://play.google.com/store/apps/details?id=com.iu4apc.morsemachine&hl=en_CA), [Windows](http://www.g4ilo.com/morse-machine.html), [in-browser](https://lcwo.net/morsemachine), and many others.
-  Not a specific product at all, but a software based teaching approach that plays the tone and waits for you to type it before proceeding. This works very well for rapidly learning to copy to keyboard. Most people find they make rapid progress through the letters, but have difficulty pushing their speed up above 12wpm overall, and often find that they can *only* copy letters to the keyboard -often without even having conscious knowledge of what they copied unless they look at the screen.
-- Chuck Adams K7Q0 [Code Course](https://www.kkn.net/~k7qo/):
-  Very few people seem interested in learning to copy code directly to pencil and paper, but if this is your goal, Chuck Adams' course is the way to do that.
+Now for the controversial opinion: I'm aware that a lot of people advocate for the Koch method of learning CW with Farnsworth spacing. The most well known example of this is the [lcwo](lcwo.net) website. 
+Koch and Farnsworth did a lot of research, and provided a great deal of evidence that this is a really effective method to teach CW **for military operators**. 
+The problem here is that they were trying to build the best system to teach recruits how to copy 5 character blocks of nonsense text at high speed with perfect accuracy to a keyboard. 
+That was what militaries needed, but not what hams need. There are two fatal flaws to this system.
+
+*1:* it focuses on transcription to keyboard. You will find that you learn to type what you hear without necessarily processing it. 
+You might have to read what you wrote to know what was sent! 
+Hams really benefit from learning to "head copy" - that is listen to code as one would read a page or listen to a conversation. 
+You may not get every character, but we repeat the important stuff anyway. 
+Head copy is what makes amateur radio QSOs fun and fluid. 
+It's about processing the meaning of what is being sent automatically, and only typing out things like a callsign.
+
+*2:* Some argue that the Koch method is still good for initially learning the individual characters. To which I would argue it's inefficient even for that. 
+Initially, this method introduces characters as you learn them, and you progress when you are making few errors. 
+However, by the time you get more than half way through the course, you rarely encounter the new characters among all of the characters you know. 
+Your accuracy will remain high (because you know most of the letters), but it takes a lot of time to expose yourself to the new characters sufficiently. 
+
+So for ham radio operators wanting to learn CW, I recommend one of the tools that focuses on learning to head copy from the start. 
+
+
+Good examples of systems that focus on head copy from the start:
+
+- [CW-Academy](https://cwops.org/cw-academy/): The founders of a new breed of online in-person teaching. I have not enrolled in the course, but I know a few people who have went through this process and have nothing but positive things to say. Even if you do not sign up, their website has all of the course materials so it is entirely possible to self-teach.
+  You do not need to enroll in a course to follow the system. They provide all course materials on the website and I have found that most useful to me. The courses are valuable if you want some accountability and encouragement.
 - [Morse Code Ninja](https://morsecode.ninja/):
-  This is a new one for me after hearing him interviewed on the [ditdit.fm](https://www.ditdit.fm/shows/episode-29-morse-code-ninja) podcast. I have been using his practice files heavily to work on copying callsigns and head-copy of other things. I think it is absolutely brilliant as a resource. I think this might be a great way to learn the letters and numbers as well. It seems like it would be a great way to learn head-copy from the start, rather than copying to keyboard.
+  This is was new one for me after hearing him interviewed on the [ditdit.fm](https://www.ditdit.fm/shows/episode-29-morse-code-ninja) podcast. 
+  I started by using his practice files heavily to work on copying callsigns and head-copy of other things. I think it is absolutely brilliant as a resource. 
+  Since then, he's produced a huge repository of training materials, and organized it in a way that a person can create a complete self-study course to go from learning characters, to qrq copy of words and sentences. 
+
