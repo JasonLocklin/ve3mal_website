@@ -2,8 +2,8 @@
 layout: post
 title: "Weechat IRC"
 description: "Some tricks and hints for using IRC"
-date:   2023-05-24 12:50:58 -0400
-categories: software 
+date:   2023-06-29 12:50:58 -0400
+categories: Software 
 ---
 
 IRC (Internet Relay Chat) is a protocol for internet chatrooms that pre-dates the "web" and is beautifully antiquated in my mind. 
