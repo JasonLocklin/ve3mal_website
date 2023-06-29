@@ -35,6 +35,13 @@ If you are running weechat full time, rather than just a bouncer, be sure to set
 I use [Irssi Notifier](https://irssinotifier.appspot.com/). It works great with weechat, despite the name, and seems to be 
 very reliable. Don't try to keep any irc client connected on your mobile device, as it's not a battery friendly system -use push instead.
 
+## Automate things
+Weechat has lots of optional "bars" that display things like the channel list, nick list, buffers like the highlight monitor, 
+and even split windows that can show multiple buffers. This obviously works best in big terminals, and rather than have to turn them
+on and off when I use different sized windows, I have them automatically toggle when the window is resized. It's extremely handy and slick.
+
+This is mentioned in the user guide [here](https://weechat.org/files/doc/stable/weechat_user.en.html#trigger_example_responsive_layout).
+
 ## Relays
 
 Weechat has a "relay" system that lets it act like a "buncer" so that other clients can connect to it. 
@@ -52,7 +59,7 @@ on one computer, while another might have a tiny window with just one buffer dis
 
 The IRC proxy supports TLS, but I use a wireguard server on my vps so remote connections to weechat are protected that way.
 
-## Web client
+### Web client
 Many people use [Glowingbear](glowing-bear.org) when they wish to connect to their weechat instance with a web browser (either for a gui 
 experience, or on a device without a terminal). 
 Glowingbear works as a client inside your browser, and can make use of the weechat relay if you have set up tls and port forwarding,etc.
@@ -62,10 +69,31 @@ full-blown IRC client running on the server. It connects to the IRC proxy, and a
 immediately resume chatting as if I was on my weechat instance. TheLoungs is quite nice, and would also work great if I just wanted 
 a web IRC client that stays connected 24/7 on it's own -but I like to have the terminal option!
 
-## Automate things
-Weechat has lots of optional "bars" that display things like the channel list, nick list, buffers like the highlight monitor, 
-and even split windows that can show multiple buffers. This obviously works best in big terminals, and rather than have to turn them
-on and off when I use different sized windows, I have them automatically toggle when the window is resized. It's extremely handy and slick.
+```
+ Connected IRC Clients:
 
-This is mentioned in the user guide [here](https://weechat.org/files/doc/stable/weechat_user.en.html#trigger_example_responsive_layout).
+┌─────────────┐
+│SSH in a Term├────────────────────────────────────────────────────┐
+└─────────────┘                                                    │
+                                                                   │
+┌─────────────────┐                       ┌────────────────────────┼────────┐
+│Weechat in a Term├────┐                  │     VPS                │        │
+└─────────────────┘    │                  │                        │        │
+                       │                  │  ┌─────────┐     ┌─────┴──────┐ │
+┌─────────────────┐    │               ┌──┼──┤IRC Proxy├─────┤Dtach       │ │
+│Weechat in a Term├────┤  ┌──────────┐ │  │  └─────────┘     │  ┌───────┐ │ │ ┌───────────┐
+└─────────────────┘    ├──┤ Wireguard├─┤  │                  │  │Weechat├─┼─┼─┤IRC Servers│
+                       │  └──────────┘ │  │  ┌─────────────┐ │  └─────┬─┘ │ │ └───────────┘
+┌───────────────┐      │               └──┼──┤Weechat Relay├─┤        │   │ │
+│Weechat Android├──────┘                  │  └──────┬──────┘ └────────┼───┘ │
+└───────────────┘                         │         │                 │     │ ┌────────────┐
+                                          │  ┌──────┴─────────────┐   └─────┼─┤Push Service│
+┌───────────┐                  ┌──────────┼──┤TheLounge Web Client│         │ └────────────┘
+│Web Browser├───────┐          │          │  └────────────────────┘         │
+└───────────┘       │          │          │                                 │
+                    ├──────────┘          │                                 │
+┌───────────┐       │                     └─────────────────────────────────┘
+│Web Browser├───────┘
+└───────────┘
 
+```
