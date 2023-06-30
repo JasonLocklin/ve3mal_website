@@ -7,7 +7,7 @@ Ham Radio project notebook and log for VE3MAL (Jay), an Amateur Radio operator i
 looks to share a passionate interest in understanding technology, building new things, and getting out into
 nature.
 
-![profile picture](assets/images/Profile_s.jpg)
+![jason's profile picture](assets/images/Profile_s.jpg)
 
 Projects topics include QRP, kit building, antenna design, HF digimodes and CW, VHF FM and APRS. Digital Voice, Hotspots, POTA, and more.
 <br><br>

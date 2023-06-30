@@ -31,7 +31,7 @@ to the mix, as well as trying out a [SHARI](https://kitsforhams.com/) allstar ho
 
 ## First Shack 
 Initially, The first shack was based around a Yaesu FT450d.
-![First Shack](assets/images/old_station.jpg)
+![Photograph of my first "shack" with ft-450d hf radio](assets/images/old_station.jpg)
 Additionally I've used a Yaesu FT60r, Kenwood TM-281a, a Baofeng uv85, and
 Motorola HTs as well. The FT450d was a great entry HF radio. 
 Simple to operate, and 
