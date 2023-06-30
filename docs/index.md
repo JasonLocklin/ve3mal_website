@@ -9,7 +9,6 @@ nature.
 
 ![profile picture](assets/images/Profile_s.jpg)
 
-<div>
 Projects topics include QRP, kit building, antenna design, HF digimodes and CW, VHF FM and APRS. Digital Voice, Hotspots, POTA, and more.
 <br><br>
 Member of Kitchener Amateur Radio Club ([KWARC](http://www.kwarc.org/)) and 
@@ -17,7 +16,6 @@ Radio Amateurs of Canada ([RAC](https://www.rac.ca/)).
 Find on Mastodon @ve3mal@mastodon.radio, and on the #Amateurradio channel on 
 the Geekshed IRC Network.
 
-</div>
 ## Around the Web:
 * [Mastodon](https://mastodon.radio/@ve3mal)
 * [HamQTH](https://www.hamqth.com/ve3mal)
