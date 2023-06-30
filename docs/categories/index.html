@@ -11,15 +11,17 @@ pages show up here with my notebook documentation.
 <br><br>
 
 Equipment list: &nbsp;
-{% assign uniqueCategories = "" | split: "," %}
+{% assign uniqueCategories = "" %}
 {% for post in site.benchtop %}
   {% for category in post.categories %}
-    {% if category != "benchtop" and category | unless:uniqueCategories contains:category %}
-      {% assign uniqueCategories = uniqueCategories | push:category %}
+    {% if category != "benchtop" %}
+      {% unless uniqueCategories contains category %}
+        {% assign uniqueCategories = uniqueCategories | append: "," | append:category %}
+      {% endunless %}
     {% endif %}
   {% endfor %}
 {% endfor %}
-{% assign uniqueCategories = uniqueCategories | uniq %}
+{% assign uniqueCategories = uniqueCategories | split: "," | uniq %}
 {% for category in uniqueCategories %}
   <a href="#{{ category | slugify }}" class="category-link">{{ category }}</a>
 {% endfor %}
