@@ -17,8 +17,6 @@ Radio Amateurs of Canada ([RAC](https://www.rac.ca/)).
 Find on Mastodon @ve3mal@mastodon.radio, and on the #Amateurradio channel on 
 the Geekshed IRC Network.
 
-<br><br>
-<br><br>
 
 ## Around the Web:
 * [Mastodon](https://mastodon.radio/@ve3mal)
