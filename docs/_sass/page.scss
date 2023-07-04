@@ -99,6 +99,15 @@ strong {
   font-weight: 500;
 }
 
+/* mastodon iframe */
+#iframing {
+    float: right;
+    width: 850px;
+    height: 400px;
+    margin: 30px auto 30px;
+    clear: both;
+}
+
 /* Hamalert image */
 .image-container {
   width: 400px; /* Set the desired width */
