@@ -19,11 +19,27 @@ the Geekshed IRC Network.
 
 
 ## Around the Web:
-* [Mastodon](https://mastodon.radio/@ve3mal)
-* [HamQTH](https://www.hamqth.com/ve3mal)
-* [QRZ](https://www.qrz.com/db/VE3MAL)
-* [Github](https://github.com/JasonLocklin)
-* [Geekshed IRC](https://kiwiirc.com/client/irc.geekshed.net/#amateurradio)
+* <a href="https://mastodon.radio/@ve3mal" rel="me" rel="noopener" target="_blank">Mastodon</a>
+* <a href="https://www.hamqth.com/ve3mal" rel="me" rel="noopener" target="_blank">HamQTH</a>
+* <a href="https://www.qrz.com/db/VE3MAL" rel="me" rel="noopener" target="_blank">QRZ</a>
+* <a href="https://github.com/JasonLocklin" rel="me" rel="noopener" target="_blank">Github</a>
+* <a href="https://kiwiirc.com/client/irc.geekshed.net/#amateurradio" rel="noopener" target="_blank">Geekshed IRC Network</a>
+
+<!-- Non-displayed hcard -->
+<div style="display:none" id="hcard-Jason-Locklin" class="vcard">
+  <img style="float:left; margin-right:4px" src="https://ve3mal.locklin.science/assets/images/Profile_s.jpg" alt="photo of " class="photo"/>
+ <a class="url fn" href="https://ve3mal.locklin.science">Jason Locklin</a>
+ <div class="org">VE3MAL</div>
+ <div class="adr">
+  <span class="locality">Kitchener</span>
+, 
+  <span class="region">On</span>
+
+  <span class="country-name">Canada</span>
+
+ </div>
+<p style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</p>
+</div>
 
 <br><br>
 <br><br>
