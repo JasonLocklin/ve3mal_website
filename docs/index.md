@@ -28,7 +28,7 @@ the Geekshed IRC Network.
 <!-- Non-displayed hcard -->
 <div style="display:none" id="hcard-Jason-Locklin" class="vcard">
   <img style="float:left; margin-right:4px" src="https://ve3mal.locklin.science/assets/images/Profile_s.jpg" alt="photo of " class="photo"/>
- <a class="url fn" href="https://ve3mal.locklin.science">Jason Locklin</a>
+ <a class="url fn" rel="me" href="https://ve3mal.locklin.science">Jason Locklin</a>
  <div class="org">VE3MAL</div>
  <div class="adr">
   <span class="locality">Kitchener</span>
