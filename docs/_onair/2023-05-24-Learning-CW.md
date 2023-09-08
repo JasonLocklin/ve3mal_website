@@ -38,7 +38,7 @@ As someone still very much learning, I will provide a short list of some hard-wo
 
 ...
 
-Now for the controversial opinion: I'm aware that a lot of people advocate for the Koch method of learning CW with Farnsworth spacing. The most well known example of this is the [lcwo](lcwo.net) website. 
+Now for the controversial opinion: I'm aware that a lot of people advocate for the Koch method of learning CW with Farnsworth spacing. The most well known example of this is the [lcwo](http://lcwo.net) website. 
 Koch and Farnsworth did a lot of research, and provided a great deal of evidence that this is a really effective method to teach CW **for military operators**. 
 The problem here is that they were trying to build the best system to teach recruits how to copy 5 character blocks of nonsense text at high speed with perfect accuracy to a keyboard. 
 That was what militaries needed, but not what hams need. There are two fatal flaws to this system.
