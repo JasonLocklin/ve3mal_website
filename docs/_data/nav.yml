@@ -1,8 +1,8 @@
 - name: ONAIR 
-  link: /posts
+  link: /posts/
 - name: Benchtop 
   link: /categories/
 - name: Station Info 
-  link: /station
+  link: /station/
 - name: About & Contact
   link: /
