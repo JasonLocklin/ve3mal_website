@@ -27,7 +27,7 @@ it also receives just about anything, including Broadcast AM, shortwave (AM), FM
 public safety scanning, etc. The UI can be bewildering, but it is great entertainment to 
 work through any of the many things it can do.  
 I would like to add a FM mobile radio
-to the mix, as well as trying out a [SHARI](https://kitsforhams.com/) allstar hotspot node.
+to the mix, as well as trying out a [SHARI](http://kitsforhams.com/) allstar hotspot node.
 
 ## First Shack 
 Initially, the first shack was based around a Yaesu FT450d.
