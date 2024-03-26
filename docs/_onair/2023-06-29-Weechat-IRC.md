@@ -60,7 +60,7 @@ on one computer, while another might have a tiny window with just one buffer dis
 The IRC proxy supports TLS, but I use a wireguard server on my vps so remote connections to weechat are protected that way.
 
 ### Web client
-Many people use [Glowingbear](glowing-bear.org) when they wish to connect to their weechat instance with a web browser (either for a gui 
+Many people use [Glowingbear](https://glowing-bear.org) when they wish to connect to their weechat instance with a web browser (either for a gui 
 experience, or on a device without a terminal). 
 Glowingbear works as a client inside your browser, and can make use of the weechat relay if you have set up tls and port forwarding,etc.
 
