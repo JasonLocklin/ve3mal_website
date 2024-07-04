@@ -12,10 +12,11 @@ nature.
 
 Projects topics include QRP, kit building, antenna design, HF digimodes and CW, VHF FM and APRS. Digital Voice, Hotspots, POTA, and more.
 <br><br>
-Member of Kitchener Amateur Radio Club ([KWARC](http://www.kwarc.org/)) and 
-Radio Amateurs of Canada ([RAC](https://www.rac.ca/)). 
-Find on Mastodon @ve3mal@mastodon.radio, and on the #Amateurradio channel on 
-the Geekshed IRC Network.
+Member of Kitchener Amateur Radio Club ([KWARC](http://www.kwarc.org/)) and
+Radio Amateurs of Canada ([RAC](https://www.rac.ca/)).
+
+Find on Mastodon @ve3mal@mastodon.radio, and on the #Amateurradio channel on
+the Geekshed IRC Network. HH phone number is 550-0021.
 
 
 ## Around the Web:
@@ -30,9 +31,10 @@ the Geekshed IRC Network.
   <img style="float:left; margin-right:4px" src="https://ve3mal.locklin.science/assets/images/profile.jpg" alt="photo of " class="photo"/>
  <a class="url fn" rel="me" href="https://ve3mal.locklin.science">Jason Locklin</a>
  <div class="org">VE3MAL</div>
+ <div class="tel">550-0021</div>
  <div class="adr">
   <span class="locality">Kitchener</span>
-, 
+,
   <span class="region">On</span>
 
   <span class="country-name">Canada</span>
