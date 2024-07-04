@@ -15,16 +15,15 @@ Projects topics include QRP, kit building, antenna design, HF digimodes and CW, 
 Member of Kitchener Amateur Radio Club ([KWARC](http://www.kwarc.org/)) and
 Radio Amateurs of Canada ([RAC](https://www.rac.ca/)).
 
-Find on Mastodon @ve3mal@mastodon.radio, and on the #Amateurradio channel on
-the Geekshed IRC Network. HH phone number is 550-0021.
+Please feel free to contact me via Email at my callsign @locklin.science or on the #Amateurradio channel on the Geekshed IRC Network. My HH phone number is 550-0021.
 
 
-## Around the Web:
+## Around the World Wide Web:
 * <a href="https://mastodon.radio/@ve3mal" rel="me" rel="noopener" target="_blank">Mastodon</a>
 * <a href="https://www.hamqth.com/ve3mal" rel="me" rel="noopener" target="_blank">HamQTH</a>
 * <a href="https://www.qrz.com/db/VE3MAL" rel="me" rel="noopener" target="_blank">QRZ</a>
 * <a href="https://github.com/JasonLocklin" rel="me" rel="noopener" target="_blank">Github</a>
-* <a href="https://kiwiirc.com/client/irc.geekshed.net/#amateurradio" rel="noopener" target="_blank">Geekshed IRC Network</a>
+* <a href="https://kiwiirc.com/client/irc.geekshed.net/#amateurradio" rel="noopener" target="_blank">Geekshed IRC Network Web Client</a>
 
 <!-- Non-displayed hcard -->
 <div style="display:none" id="hcard-Jason-Locklin" class="vcard">
